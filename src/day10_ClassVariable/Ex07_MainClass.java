@@ -7,7 +7,6 @@ class User1 {
 	}
 }
 
-
 class User2 extends User1 {
 	public Ex07_Final user = new Ex07_Final();
 	public void func() {

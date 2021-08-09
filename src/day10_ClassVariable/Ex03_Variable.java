@@ -2,11 +2,10 @@ package day10_ClassVariable;
 
 public class Ex03_Variable {
 
-	public int variable01() {
+	public void variable01() {
 		int var = 12345;
 		System.out.println("01 var : " + var);
-		//variable02(var);
-		return var;
+		variable02(var);
 	}
 	
 	public void variable02(int var) {
